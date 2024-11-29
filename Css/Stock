@@ -1,0 +1,793 @@
+/* Start Project
+.services {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #dedede;
+}
+.services .container {
+  background-color: #eee;
+  padding: 20px;
+}
+.services .container .box {
+  padding: 20px;
+  background-color: #dedede;
+  margin: 20px;
+}
+.services .container .image:hover img {
+  transform: rotate(3deg) scale(1.1);
+  transition: 0.3s linear;
+}
+.services .container .box .image {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+    0px 2px 4px 0px rgb(0 0 0 / 12%);
+  width: fit-content;
+}
+
+.services .container .box .image .boxi {
+  overflow: hidden;
+  position: relative;
+}
+.services .container .box .image .boxi::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0px;
+  opacity: 0;
+  background-color: rgb(255 255 255 / 20%);
+  z-index: 2;
+}
+.services .container .box .image .boxi:hover::before {
+  animation: flashing 0.7s;
+}
+@keyframes flashing {
+  0%,
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 200%;
+    height: 200%;
+  }
+}
+.services img {
+  width: 425px;
+  transition: 0.3s linear;
+}
+.services .container .box .text h3 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.services .container .box .text p {
+  padding-left: 10px;
+}
+.services .container .box button {
+  background-color: var(--color-sec);
+  color: var(--main-color);
+  margin-left: 350px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.services .container .box button:hover {
+  transform: scale(1.1);
+  background-color: var(--main-color);
+  color: #e63946;
+}
+/* End Project */
+
+
+/* Html */
+<div class="box">
+    <div class="image">
+        <div class="boxi">
+            <img src="./images/33813592_7969217.jpg" alt="">
+        </div>
+    </div>
+    <div class="text">
+        <h3>Portfolio</h3>
+        <p>Create Your Portfolio</p>
+    </div>
+    <button>Read More</button>
+</div>
+<div class="box">
+    <div class="image">
+        <div class="boxi">
+            <img src="./images/IMG-20231105-WA0012.jpg" alt="">
+        </div>
+    </div>
+    <div class="text">
+        <h3>Any Prand's</h3>
+        <p>Create Your Prand Website</p>
+    </div>
+    <button>Read More</button>
+</div>
+
+
+
+
+
+
+/**************************************************************************************/
+<div class="home">
+        <div class="over"></div>
+        <!-- Start Header -->
+        <div class="header">
+            <div class="container">
+                <div class="logo"><span>.</span>PUU</div>
+                <ul class="links-one">
+                    <li><a href="">About Me</a></li>
+                    <li><a href="#services">Service's</a></li>
+                    <li><a href="#portfolio">Project's</a></li>
+                    <li><a href="#our-skills">Skills</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <ul class="links-two">
+                    <li><a href="./login.html" target="_blank">Log In</a></li>
+                    <li><a href="">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- Start Landing -->
+        <div class="landing">
+            <div class="container">
+                <div class="right-side">
+                    <h1>Hello There,<br><span>My Name Is</span> Abo Hassan</h1>
+                    <h3>I'm A Front End Developer</h3>
+                    <p>You Can Tell Me Your Idea's And I Can Create This For You </p>
+                    <input type="submit" name="" value="Bulid Your Dream Website">
+                </div>
+            </div>
+            <div class="left-side">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+        <!-- End Landing -->
+
+        <!-- Start Services -->
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="main-title">Services</div>
+            <div class="services-content">
+                <div class="col">
+                    <!-- start service cont -->
+                    <div class="srv">
+                        <i class="fa-solid fa-palette"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed deleniti laudantium
+                                ipsum qui quidem vitae explicabo minima earum! Sunt accusantium repellendus voluptas,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fa-solid fa-spray-can"></i>
+                        <div class="text">
+                            <h3>UI & UX</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed deleniti laudantium
+                                ipsum qui quidem vitae explicabo minima earum! Sunt accusantium repellendus voluptas,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- start service cont -->
+                    <div class="srv">
+                        <i class="fa-brands fa-squarespace"></i>
+                        <div class="text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed deleniti laudantium
+                                ipsum qui quidem vitae explicabo minima earum! Sunt accusantium repellendus voluptas,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                        <div class="text">
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed deleniti laudantium
+                                ipsum qui quidem vitae explicabo minima earum! Sunt accusantium repellendus voluptas,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service cont -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Services -->
+    <!--Start portfolio-->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="main-title">Portfolio</h2>
+            <div class="portfolio-content">
+                <div class="card">
+                    <img src="./Images/Screenshot 2023-11-07 193707.png" alt="">
+                    <div class="info">
+                        <h3>Create Your Landing Page</h3>
+                        <a href="https://github.com/iworkeverydaythanksgod/Html-Css-Elzero-Template-2.git"
+                            target="_blank">Show Project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./Images/Screenshot 2023-11-07 193928.png" alt="">
+                    <div class="info">
+                        <h3>Create Your Portfolio</h3>
+                        <a href="https://github.com/iworkeverydaythanksgod/Html_And-Css_Template_1.git"
+                            target="_blank">Show Project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./Images/Screenshot 2023-11-07 194210.png" alt="">
+                    <div class="info">
+                        <h3>Project Here</h3>
+                        <a href="https://github.com/iworkeverydaythanksgod/Html-Css-Elzero-Template-2.git"
+                            target="_blank">Show Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End portfolio-->
+    <!-- Start  Skills -->
+    <div id="our-skills" class="our-skills">
+        <h2 class="main-title">Skills</h2>
+        <div class="container">
+            <img src="./Images/skills.png" alt="">
+            <div class="skills">
+                <div class="skill">
+                    <h3>Html <span>80%</span></h3>
+                    <div class="the-progress">
+                        <span style="width: 80%;"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Css <span>85%</span></h3>
+                    <div class="the-progress">
+                        <span style="width: 85%;"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java Script <span>70%</span></h3>
+                    <div class="the-progress">
+                        <span style="width: 70%;"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python <span>80%</span></h3>
+                    <div class="the-progress">
+                        <span style="width: 80%;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spikes"></div>
+    <!-- End Skills -->
+    <!-- Start Contact Us-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2 class="main-title">Contact Us</h2>
+            <div class="content">
+                <form action="">
+                    <input class="main-name" type="text" name="name" placeholder="User Name">
+                    <input class="main-name" type="email" name="email" placeholder="Your Email">
+                    <textarea class="main-name" name="massage" placeholder="Your Massage"></textarea>
+                    <input type="submit" value="Send Massage">
+                </form>
+                <div class="info">
+                    <h4>Get In Touch With Us</h4>
+                    <span class="phone">+2010 156 506 25</span>
+                    <span class="phone">+2010 156 506 25</span>
+                    <h4>Where We Are</h4>
+                    <address>
+                        Awesome Address 17 <br> Egypt , Assuit <br>+2010 156 506 25 <br> EGY
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us-->
+    <!-- Start Footer -->
+    <div class="footer">
+        Made By <span>Abohassan</span> All Right Reserved &copy;
+    </div>
+    <!-- End Footer --> */
+
+
+
+    .home {
+  background-color:black;
+  height: 100vh;
+  position: relative;
+}
+
+.over {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background-color: rgb(0 0 0 / 70%);
+  z-index: -1;
+  position: absolute;
+  z-index: 1;
+}
+/* End Global Rules */
+
+/* Start Component */
+.main-title {
+  margin: 20px auto 80px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  width: fit-content;
+  font-size: 25px;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s linear;
+}
+.main-title::before,
+.main-title::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-sec);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.main-title::before {
+  content: "";
+  left: -30px;
+}
+.main-title::after {
+  content: "";
+  right: -30px;
+}
+.main-title:hover {
+  color: white;
+  border: 2px solid white;
+  transition-delay: 0.5s;
+}
+.main-title:hover::before {
+  z-index: -1;
+  animation: left-move 0.5s linear forwards;
+}
+.main-title:hover::after {
+  z-index: -1;
+  animation: right-move 0.5s linear forwards;
+}
+
+@keyframes left-move {
+  50% {
+    left: 0;
+    width: 12px;
+    height: 12px;
+  }
+  100% {
+    border-radius: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+  }
+}
+@keyframes right-move {
+  50% {
+    right: 0;
+    width: 12px;
+    height: 12px;
+  }
+  100% {
+    border-radius: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+  }
+}
+
+/* End Component */
+
+/* Start Header */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+.header .logo {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.header .logo span {
+  color: var(--color-sec);
+}
+.header .links-one {
+  display: flex;
+  flex: 0.9;
+  justify-content: space-evenly;
+}
+.header .links-one a {
+  color: var(--main-color);
+  position: relative;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.header .links-one a::after,
+.header .links-two a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-sec);
+  z-index: 99999;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s linear;
+}
+.header .links-one a:hover::after,
+.header .links-two a:hover::after {
+  width: 100%;
+}
+.header .links-two {
+  display: flex;
+  justify-content: end;
+}
+.header .links-two a {
+  color: var(--color-sec);
+  position: relative;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: var(--main-color);
+}
+
+/* End Header */
+
+/* Start Landing */
+.landing {
+  position: relative;
+  z-index: 10;
+}
+.landing .container {
+  height: 50vh;
+}
+.landing h1 {
+  color: var(--main-color);
+  letter-spacing: 7px;
+  align-self: start;
+  font-size: 35px;
+}
+.landing h1 > span {
+  color: var(--color-sec);
+}
+.landing h3 {
+  color: var(--main-color);
+  align-self: start;
+  font-size: 20px;
+}
+.landing .right-side {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing .right-side p {
+  color: var(--main-color);
+  align-self: start;
+  margin: 20px 0;
+}
+.landing .right-side input {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--color-sec);
+  color: var(--main-color);
+  border: none;
+  align-self: end;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.landing .right-side input:hover {
+  transform: scale(1.1);
+  color: var(--color-sec);
+  background-color: var(--main-color);
+}
+
+.landing .left-side {
+  color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* justify-content: space-between; */
+  margin: 20px;
+}
+.landing .left-side i {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* End Landing */
+
+/* Start Services */
+.services {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+
+.services .services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.services .services-content .srv {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.services .services-content .srv i {
+  color: var(--color-sec);
+  flex-basis: 60px;
+  /* font-size: 25px; */
+}
+.services .services-content .srv .text {
+  flex: 1;
+}
+.services .services-content .srv .text h3 {
+  margin: 0 0 20px;
+}
+.services .services-content .srv .text p {
+  color: #777;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.services .services-content .image {
+  text-align: center;
+  position: relative;
+}
+/* End Services */
+
+/* Start portfolio */
+.portfolio {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--sectio-background);
+}
+
+.portfolio .portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 80px;
+}
+
+.portfolio .portfolio-content .card {
+  background-color: rgb(217, 217, 217);
+  width: fit-content;
+}
+.portfolio .portfolio-content .card img {
+  max-width: 100%;
+  height: 185px;
+}
+.portfolio .portfolio-content .card .info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.765);
+}
+
+.portfolio .portfolio-content .card .info h3 {
+  margin: 0;
+  color: white;
+  /* width: fit-content; */
+}
+
+.portfolio .portfolio-content .card .info a {
+  background-color: var(--color-sec);
+  border: none;
+  padding: 6px;
+  border-radius: 20px;
+  color: white;
+
+  left: 69%;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s linear;
+}
+.portfolio .portfolio-content .card .info a:hover {
+  transform: scale(1.1);
+  background-color: var(--sectio-background);
+  color: var(--color-sec);
+}
+/* End portfolio */
+
+/* Start Our Skills */
+.our-skills {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+  position: relative;
+}
+
+.our-skills .container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .our-skills .container img {
+    display: none;
+  }
+}
+
+.our-skills .skills {
+  flex: 1;
+}
+
+.our-skills .skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.our-skills .skill h3 span {
+  font-size: 17px;
+  border: 1px solid var(--color-sec);
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--color-sec);
+}
+
+.our-skills .skill .the-progress {
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+}
+.our-skills .skill .the-progress span {
+  position: absolute;
+  background-color: var(--color-sec);
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* End Skills */
+
+/* Start Contact*/
+.contact{
+    padding-top:var(--section-padding) ;
+    padding-bottom:var(--section-padding) ;
+}
+
+.contact .content{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .contact .content{
+        flex-direction: column;
+    }
+}
+
+.contact .content form{
+    flex-basis: 70%;
+}
+
+.contact .content form .main-name{
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.contact .content form .main-name:focus{
+    outline: none;
+}
+
+.contact .content form textarea.main-name{
+    height: 200px;
+}
+
+.contact .content form input[type="submit"]{
+    background-color: var(--color-sec);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+    border-radius: 15px;
+}
+.contact .content form input[type="submit"]:hover{
+    transform: scale(1.1);
+        cursor: pointer;
+        background-color: white;
+        color: var(--color-sec);
+}
+
+.contact .content .info{
+    flex-basis: 25%;
+}
+@media (max-width: 767px) {
+    .contact .content .info{
+        order: -1;
+        text-align: center;
+    }
+}
+.contact .content .info h4{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.contact .content .info .phone{
+    display: block;
+    color:var(--second-color);
+    margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2){
+    margin-top: 90px;
+}
+@media (max-width: 767px){
+    .contact .content .info h4:nth-of-type(2){
+        margin-top: 30px;
+    }
+}
+.contact .content .info address{
+    color: var(--second-color);
+    line-height: 2;
+}
+
+@media (max-width: 767px){
+    .contact .content .info address{
+        margin-bottom: 30px;
+    }
+}
+/* End Contact Us */
+/* Start Footer */
+.footer{
+    background-color: var(--color-sec);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer span{
+    font-weight: bold;
+    font-size:20px;
+    color:black;
+}
+/* End Footer */
